@@ -1,0 +1,14 @@
+https://universe.roboflow.com/ds/RvKi4U4bBw?key=AnVmXAG0qC
+
+
+하트그래프
+import matplotlib.pyplot as plt
+from numpy import sin
+from numpy import cos
+import numpy as np
+ 
+x = np.linspace(-2, 2, 10000)
+f = lambda x: np.sqrt(cos(x)) * cos(80 * x) + 0.5 * np.sqrt(abs(x))
+
+plt.plot(x, f(x), color='red')
+plt.show()
